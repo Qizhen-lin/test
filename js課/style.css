@@ -1,0 +1,9 @@
+.tltle{font-size: 24px;font-weight: bold;margin-bottom: 10px;}
+.content{width:400px; color: #666666;border: blue 1px dashed;padding: 10px;}
+.keyword{color: red;}
+#p1{text-decoration: underline}
+div{letter-spacing: 5px;}
+body{
+  background-color: #e0e0e0;
+}
+.del{text-decoration: line-through;}

@@ -1,0 +1,58 @@
+body{
+  margin: 0px;
+}
+
+.head{
+  background-color: #223344;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  padding: 25px
+}
+.main{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: #ccddee;
+  width: 280px;
+  margin: 10px;
+}
+/* css Media Query */
+@media (max-width:1250px){
+    /* 如果螢幕寬度小於 1250px ，套用這個區塊的設定 */
+    .box{
+      width: 45%;
+    }
+}
+
+@media (max-width:500px){
+  /* 如果螢幕寬度小於 500px ，套用這個區塊的設定 */
+  .box{
+    width: 90%;
+   
+  }
+  .head{
+    font-size: 24px;
+  }
+
+img {
+  width: 100%;
+}
+.title {
+  color: rgba(3, 32, 32, 0.851);
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  font-size: 14px;
+  color: rgba(120, 8, 120, 0.893);
+  text-align: center;
+ 
+}
+
